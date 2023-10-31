@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="description">
+        <h1>
+            ATIVIDADE - Formulário
+        </h1>
+        <p>
+            A atividade é seguir os passos do tutorial abaixo e criar este site com o formulário.
+        </p>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form" target="_blank">
+            Your First Form
+        </a>
+    </div>
+
+    <form action="index.html" method="post">
+        <ul>
+            <li>
+                <label for="name">
+                    Nome:
+                </label>
+                <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+                <label for="mail">
+                    Email:
+                </label>
+                <input type="email" id="mail" name="user_email" />
+            </li>
+            <li>
+                <label for="msg">
+                    Mensagem:
+                </label>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li>
+                <button type="submit">
+                    Enviar mensagem
+                </button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
